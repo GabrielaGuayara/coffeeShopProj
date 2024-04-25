@@ -1,0 +1,39 @@
+/* ABOUT US CSS */
+body{
+    background-image: url(https://images.pexels.com/photos/1695052/pexels-photo-1695052.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.sub-ctn{
+    background-color: rgb(248, 240, 229);
+    text-align: center;
+    height: 80vh;
+    width: 100%;
+}
+
+h2{
+    background-color:#803D3B;
+    color: white;
+}
+
+#menu{
+    margin: 0 40px 0 40px;
+    text-align: center;
+}
+ul{
+    padding: 0 10px 0 10px;
+    background-color: white;
+}
+li{
+    line-height: 25px;
+    list-style: none;
+}
+
+address{
+    color: white;
+}

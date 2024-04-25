@@ -1,0 +1,55 @@
+/* INDEX.HTML CSS */
+body{
+    text-align: center;
+}
+video{
+    position: fixed;
+    width:100vw;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 0.7;
+}
+.main-ctn{
+    border: 8px solid white;
+    z-index: 1;
+    color: white;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 60px;
+
+}
+
+#about{
+    background-color: rgb(225, 209, 239);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+    background: black;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    width: 100px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+}
+
